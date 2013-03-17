@@ -7,7 +7,7 @@
   "homepage": "https://github.com/didit-tech/FastLegS",
   "dependencies": {
     "async": "0.1.18",
-    "pg": "0.6.18",
+    "pg": "git://github.com/ajitk/node-postgres.git",
     "mysql": "2.0.0-alpha3",
     "underscore": "1.4.3"
   },
