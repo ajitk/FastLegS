@@ -1,6 +1,6 @@
 {
   "name": "FastLegS",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "PostgreSQL ORM on top of node-postgres",
   "tags" : ["orm", "pg", "postgres", "mysql"],
   "author": "Didit Tech <development@didit.com>",
@@ -18,7 +18,6 @@
   },
   "main": "index",
   "scripts": { "test": "make test-unit" },
-  "engines": { "node": ">= 0.6.17 < 0.10.22" },
   "licenses" : [{
       "type" : "MIT"
     , "url" : "http://github.com/didit-tech/FastLegS/raw/master/LICENSE"
