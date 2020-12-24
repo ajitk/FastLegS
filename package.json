@@ -1,25 +1,63 @@
 {
-  "name": "FastLegS",
-  "version": "0.4.2",
-  "description": "PostgreSQL ORM on top of node-postgres",
-  "tags" : ["orm", "pg", "postgres", "mysql"],
-  "author": "Didit Tech <development@didit.com>",
-  "homepage": "https://github.com/didit-tech/FastLegS",
+  "_args": [
+    [
+      "git+ssh://git@github.com/distill-io/FastLegS.git",
+      "/home/samar/scrapex.ai/services/server"
+    ]
+  ],
+  "_from": "git+ssh://git@github.com/distill-io/FastLegS.git",
+  "_id": "FastLegS@git+ssh://git@github.com/distill-io/FastLegS.git#9306bb7d55f8ae301cddb5444759b87ef3eb1930",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/FastLegS",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+ssh://git@github.com/distill-io/FastLegS.git",
+    "rawSpec": "git+ssh://git@github.com/distill-io/FastLegS.git",
+    "saveSpec": "git+ssh://git@github.com/distill-io/FastLegS.git",
+    "fetchSpec": "ssh://git@github.com/distill-io/FastLegS.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+ssh://git@github.com/distill-io/FastLegS.git#9306bb7d55f8ae301cddb5444759b87ef3eb1930",
+  "_spec": "git+ssh://git@github.com/distill-io/FastLegS.git",
+  "_where": "/home/samar/scrapex.ai/services/server",
+  "author": {
+    "name": "Didit Tech",
+    "email": "development@didit.com"
+  },
   "dependencies": {
     "async": "0.1.18",
-    "pg": "*",
     "mysql": "2.0.0-alpha3",
+    "pg": "*",
     "underscore": "1.4.3"
   },
-  "devDependencies": { 
-    "mocha": "1.0.3",
+  "description": "PostgreSQL ORM on top of node-postgres",
+  "devDependencies": {
     "expect.js": "0.1.2",
+    "mocha": "1.0.3",
     "read": "0.1.0"
   },
+  "homepage": "https://github.com/didit-tech/FastLegS",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/didit-tech/FastLegS/raw/master/LICENSE"
+    }
+  ],
   "main": "index",
-  "scripts": { "test": "make test-unit" },
-  "licenses" : [{
-      "type" : "MIT"
-    , "url" : "http://github.com/didit-tech/FastLegS/raw/master/LICENSE"
-  }]
+  "name": "FastLegS",
+  "scripts": {
+    "test": "make test-unit"
+  },
+  "tags": [
+    "orm",
+    "pg",
+    "postgres",
+    "mysql"
+  ],
+  "version": "0.4.2"
 }
